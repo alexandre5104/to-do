@@ -82,14 +82,14 @@ export default {
 
 .container-card .card {
     width: 35%;
-    background-color: rgb(67, 111, 241);
+    background-color: rgb(9, 37, 22);
     margin: 60px 2px 2px 2px;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: inset 1px 1px 3px rgb(220, 221, 222);
+    box-shadow: inset 1px 1px 3px rgb(13, 51, 31);
 }
 
 .container-card .card:nth-child(2) {
@@ -102,6 +102,7 @@ export default {
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
+    color: white;
 }
 
 .container-card .card .form {

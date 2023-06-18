@@ -18,12 +18,12 @@ export default {
   .header{
     width: 100%;
     height: 50px;
-    background-color: rgb(69, 128, 224);
+    background-color: rgb(9, 37, 22);
     display: flex;
     align-items: center;
     position: fixed;
     z-index: 1;
-    box-shadow: 1px 1px 4px rgb(133, 165, 240);
+    box-shadow: 1px 1px 4px rgb(11, 45, 27);
   }
 
   .header h3{
