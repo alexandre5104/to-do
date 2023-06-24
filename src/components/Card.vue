@@ -52,8 +52,9 @@ export default {
 
             let index = this.tarefas.indexOf(this.tarefa);
 
+            console.log(this.tarefa.nome)
             if (index === -1) {
-                if (this.tarefa == {}) {
+                if (this.tarefa.nome == undefined) {
                     alert("error")
                 } else {
                     this.tarefas.push(this.tarefa)
@@ -74,7 +75,7 @@ export default {
 <style scoped>
 .container-card {
     width: 100%;
-    background-color: black;
+    background:linear-gradient(to left, rgb(76, 178, 237), rgb(100, 198, 218));
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -82,14 +83,14 @@ export default {
 
 .container-card .card {
     width: 35%;
-    background-color: rgb(9, 37, 22);
+    /* background-color: rgb(9, 37, 22); */
     margin: 60px 2px 2px 2px;
     min-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    box-shadow: inset 1px 1px 3px rgb(13, 51, 31);
+    border: 1px solid white;
 }
 
 .container-card .card:nth-child(2) {
@@ -111,9 +112,10 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(6, 9, 37);
+    background-color:white;
     height: 80%;
     border-radius: 5px;
+    box-shadow: 1px 1px 5px gray;
 }
 
 .container-card .card .form .form-control {
@@ -129,11 +131,12 @@ export default {
 .container-card .card .form .form-control h2{
   width: 100%;
   text-align: center;
-  color: white;
+  color: gray;
 }
 
 .container-card .card .form .form-control label{
-    color: white;
+    color:gray;
+    font-size: 14px;
 }
 
 @media (max-width: 800px) {

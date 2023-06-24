@@ -76,7 +76,7 @@ export default {
 }
 
 .card .list {
-    background-color: rgb(6, 9, 37);
+    background-color: white;
     width: 80%;
     border-radius: 5px;
     display: flex;
@@ -86,8 +86,8 @@ export default {
     align-items: center;
 }
 
-p {
-    color: white;
+p, label {
+    color: gray;
 }
 </style>
 
