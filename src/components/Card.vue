@@ -75,7 +75,7 @@ export default {
 <style scoped>
 .container-card {
     width: 100%;
-    background:linear-gradient(to left, rgb(76, 178, 237), rgb(100, 198, 218));
+    background:linear-gradient(to left, rgb(87, 48, 160), rgb(218, 155, 243));
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@ export default {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 1px solid white;
+    border: .1px solid white;
 }
 
 .container-card .card:nth-child(2) {
